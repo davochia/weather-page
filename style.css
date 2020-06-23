@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./img/atmosphere-branch.jpg');
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    font-family: "Pacifico", cursive, sans-serif;
+    color: white;
+}
+
+.king{
+    height: 10vh;
+    font-size: 40px;
+    align-items: center;
+    /* font-family: 'Pacifico', cursive; */
+}
+
+.loc, .temp{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temp{
+    flex-direction: column;
+}
+
+.section-degree{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-degree span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.section-degree h2{
+    font-size: 50px;;
+}
